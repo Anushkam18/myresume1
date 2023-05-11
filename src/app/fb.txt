@@ -1,0 +1,18 @@
+1. Login to firebase with your google account and go to console.
+2. Create new project, give name as myresume, click continue.
+3. Disable google analytics and click create project.
+4. Open your command prompt and navigate to your angular project
+5. npm install --save firebase-tools
+6. ng build
+7. You would see a new folder dist/myresume in your project root folder
+8. firebase login
+9. firebase init
+10. Yes => select hosting by pressing down arrow key ( Hosting: Configure files for Firebase Hosting and (optionally) set up GitHub Action deploys)
+11. Select use an existing project
+12. Select your project 
+13. Select dist/myresume as your public directory
+14. Configure as a single-page app (rewrite all urls to /index.html)?  => Select no
+15. Set up automatic builds and deploys with GitHub? (y/N) => select N
+16. Set up automatic builds and deploys with GitHub? => Select No
+17. firebase deploy
+18. 
